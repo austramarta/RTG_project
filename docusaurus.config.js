@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'StartSchool Tech Module guide',
+  title: 'Frontend Development',
 //   favicon: 'img/StartSchool_round_pink.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -23,11 +23,12 @@ const config = {
 
 
   // GitHub pages deployment config.
-  organizationName: 'StartSchoolHQ',
-  projectName: 'startschool-wiki',
-  url: 'https://startschoolhq.github.io',
-  baseUrl: '/startschool-wiki/',
-  deploymentBranch: 'gh-pages',
+organizationName: 'austramarta', 
+projectName: 'RTG_project',     
+url: 'https://austramarta.github.io',  
+baseUrl: '/RTG_project/',        
+deploymentBranch: 'gh-pages',  
+
 
   onBrokenLinks: 'warn', // Changed from 'throw' to 'warn' to allow build to continue
   onBrokenMarkdownLinks: 'warn',
@@ -86,7 +87,7 @@ const config = {
         //     ],
         //   },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} StartSchool Tech Module. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Austra Marta. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

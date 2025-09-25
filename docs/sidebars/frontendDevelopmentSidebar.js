@@ -11,6 +11,8 @@ export const frontendDevelopmentSidebar = [
         'FrontendDevelopment/frontendDevelopment5',
         'FrontendDevelopment/frontendDevelopment6',
         'FrontendDevelopment/frontendDevelopment7',
+        'FrontendDevelopment/frontendDevelopment8',
+        'FrontendDevelopment/frontendDevelopment9',
       ],
     },
   ];

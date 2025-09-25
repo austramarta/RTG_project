@@ -26,8 +26,7 @@ Frontend development isn’t just coding — it’s **creative and fun**!
 
 ## Cool Projects
 - Famous examples:  
-  - Google Doodles (interactive and playful).  
-  - FreeCodeCamp projects.  
+  - [Google Doodles](https://artsandculture.google.com/partner/google-doodle)   
 
 
 ---
