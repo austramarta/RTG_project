@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'StartSchool Tech Module guide',
-  favicon: 'img/StartSchool_round_pink.png',
+//   favicon: 'img/StartSchool_round_pink.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -59,56 +59,32 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'StartSchool Tech module',
+        title: 'Frontend Development',
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'liveCodingSidebar',
+            sidebarId: 'frontendDevelopmentSidebar',
             position: 'left',
-            label: 'Live Coding',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'collabCodingSidebar',
-            position: 'left',
-            label: 'Collaborative Coding',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'caseStudiesSidebar',
-            position: 'left',
-            label: 'Case Studies',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'documentationSidebar',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'generalInformationSidebar',
-            position: 'left',
-            label: 'General information',
+            label: 'Frontend Development',
           },
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/start-school',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/start-school',
-              },
-            ],
-          },
+        //   {
+        //     title: 'Community',
+        //     items: [
+        //       {
+        //         label: 'Discord',
+        //         href: 'https://discord.gg/start-school',
+        //       },
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/start-school',
+        //       },
+        //     ],
+        //   },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} StartSchool Tech Module. Built with Docusaurus.`,
       },

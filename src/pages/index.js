@@ -16,28 +16,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/LiveCoding/recordings">
-            Live Coding
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/CollaborativeCoding/Project2/quiz-me-if-you-can">
-            Collaborative Coding
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/CaseStudies/Session1/study04">
-            Case Studies
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/generalinformation">
-            General Information
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
             to="/docs/FrontendDevelopment/frontendDevelopment">
-            FE Development
+            Let's Start!
           </Link>
         </div>
       </div>
@@ -52,9 +32,6 @@ export default function Home() {
       title={`Welcome to ${siteConfig.title}`}
       description="Your comprehensive guide to StartSchool coding success">
       <HomepageHeader />
-      {/* <main>
-        <HomepageFeatures />
-      </main> */}
     </Layout>
   );
 }

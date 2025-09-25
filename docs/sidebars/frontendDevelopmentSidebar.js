@@ -1,7 +1,7 @@
 export const frontendDevelopmentSidebar = [
     {
       type: 'category',
-      label: 'FE Development',
+      label: 'Let`s Start',
       items: [
         'FrontendDevelopment/frontendDevelopment',
         'FrontendDevelopment/frontendDevelopment1',
